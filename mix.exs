@@ -40,7 +40,7 @@ defmodule Alex.MixProject do
 
   def package do
     [
-      name: "jenkiexs",
+      name: "#{@app}",
       licenses: @licenses,
       links: %{"GitHub" => @source_url}
     ]
